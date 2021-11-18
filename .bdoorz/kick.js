@@ -1,1 +1,1 @@
-console.print("nigger");
+console.log("nigger");
