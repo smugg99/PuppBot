@@ -15,8 +15,8 @@ module.exports = {
 		.setName('capybara')
 		.setDescription('Sends a random capybara image.'),
 	async execute(interaction) {
-		var fruits = ['capybara', 'cute capybara pictures', 'capybara pictures'](async () => {
-			const results = await google.scrape(fruits, 200);
+		(async () => {
+			const results = await google.scrape('capybara', 200);
 			console.log('results', results);
 		})();
 	},
