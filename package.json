@@ -1,7 +1,7 @@
 {
-  "name": "capybot",
+  "name": "puppbot",
   "version": "0.0.1",
-  "description": "Discord bot made only to send cute capybara images!",
+  "description": "Discord bot made only to send cute puppy images!",
   "main": "index.js",
   "dependencies": {
     "discord-buttons": "^4.0.0",
