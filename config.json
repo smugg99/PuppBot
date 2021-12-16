@@ -1,7 +1,7 @@
 {
-	"clientId": "910856637621895168",
-	"guildId": "919885482563862548",
-	"token": "OTEwODU2NjM3NjIxODk1MTY4.YZY7WQ.j44eD1-BYn6WYjlERSjqhRt4uBw",
+	"clientId": "[insert client id]",
+	"guildId": "[insert test server id]",
+	"token": "[insert token]",
 
 	"colors": {
 		"primary": "#E7848F"
