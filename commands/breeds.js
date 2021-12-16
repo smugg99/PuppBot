@@ -29,9 +29,7 @@ module.exports = {
 						}
 					}
 			    })
-			    .catch((err) => {
-			        console.log(err);
-			    });
+			    .catch((err) => { console.log(err); });
 
 			if (breedsCombined) { messageEmbed.setDescription(breedsCombined); return interaction.reply({ embeds: [messageEmbed] }); }
 			return interaction.reply({ content: 'There has been an error while fetching breeds from the API :(', ephemeral: true });

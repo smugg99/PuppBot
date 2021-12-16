@@ -37,11 +37,9 @@ module.exports = {
 			
 					return interaction.reply({ embeds: [messageEmbed] });
 				})
-				.catch((err) => {
-					console.log(err);
-					return interaction.reply({ content: 'There has been an error while fetching images from the API :(', ephemeral: true });
-				});
-		
+				.catch((err) => { console.log(err); });
+			
+			return interaction.reply({ content: 'There has been an error while fetching images from the API :(', ephemeral: true });
 		})();
 	},
 };
