@@ -5,7 +5,6 @@ const config = require('./config.json');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 
-
 // Bruh, I didn't know which intents to insert so i just inserted almost all of them :>
 const client = new Discord.Client({
 	intents: [
@@ -48,8 +47,8 @@ client.once('ready', async () => {
 			console.log('Started refreshing (/) commands.');
 	 
 			await rest.put(
-				//Routes.applicationCommands(config.clientId),
-				Routes.applicationGuildCommands(config.clientId, config.guildId),
+				Routes.applicationCommands(config.clientId),
+				//Routes.applicationGuildCommands(config.clientId, config.guildId),
 				{ body: commands },
 			);
 	 
@@ -63,7 +62,7 @@ client.once('ready', async () => {
 	//client.application?.commands.set([]);
 
 	// Removing guild commands
-	//client.guilds.cache.get(config.guildId)?.commands.set([]);
+	client.guilds.cache.get(config.guildId)?.commands.set([]);
 });
 
 
