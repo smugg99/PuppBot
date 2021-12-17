@@ -45,4 +45,4 @@ Edit the config.json file:
 ![](https://i.ibb.co/s1MQHhq/Repo-Background-Draft.png)
 
 ## License
-Distributed under the MIT License. See [LICENSE](https://github.com/DudusJestem/PuppBot/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/DudusJestem/PuppBot/blob/main/LICENSE.md) for more information.
