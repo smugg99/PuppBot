@@ -1,4 +1,9 @@
-![](https://i.ibb.co/s1MQHhq/Repo-Background-Draft.png)
+<br/>
+<p align="center">
+  <a href="https://github.com/DudusJestem/PuppBot">
+    <img src="https://i.ibb.co/cg5LSZv/ellipse1013.png" alt="Logo" width="371" height="200">
+  </a>
+</p>
 
 # PuppBot
 Discord bot created in the intention of sending cute dog images!
@@ -33,10 +38,11 @@ Edit the config.json file:
 		"primary": "#E7848F"
 	}
 }
-
 ```
 
 **Join our [Discord Server](https://discord.gg/Ubn8rBKjpt) to test this bot for yourself!**
 
+![](https://i.ibb.co/s1MQHhq/Repo-Background-Draft.png)
+
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Distributed under the MIT License. See [LICENSE](https://github.com/DudusJestem/PuppBot/LICENSE.md) for more information.
