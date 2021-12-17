@@ -58,6 +58,9 @@ client.once('ready', async () => {
 		}
 	})();
 
+	// Show on how many servers this but is currently in
+	client.user.setActivity('🦴 Currently in **${client.guilds.cache.size}** servers! 🦴', {type: 4});
+
 	// Removing application commands
 	//client.application?.commands.set([]);
 
