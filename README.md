@@ -1,3 +1,5 @@
+![](https://i.ibb.co/s1MQHhq/Repo-Background-Draft.png)
+
 # PuppBot
 Discord bot created in the intention of sending cute dog images!
 
