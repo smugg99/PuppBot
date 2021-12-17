@@ -4,9 +4,9 @@
   "description": "Discord bot made only to send cute puppy images!",
   "main": "index.js",
   "dependencies": {
-    "discord-buttons": "^4.0.0",
     "discord.js": "^12.5.3"
   },
+  "repository": "github:DudusJestem/PuppBot",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
